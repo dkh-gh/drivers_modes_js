@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script src="drivers_modes.js"></script>
+	<script src="script.js"></script>
+	<style>
+		.driver {
+			box-shadow: 0 0 20px -5px #000;
+			outline: 2px solid #999;
+		}
+		.info {
+			position: fixed;
+			left: 20px;
+			top: 250px;
+			width: 600px;
+			height: 300px;
+			outline: 1px solid #ccc;
+			font-family: sans-serif;
+		}
+		.line {
+			width: 100%; height: 28px;
+			position: fixed;
+			background: #ccc;
+			left: 0;
+			outline: 2px dashed #ccc;
+			box-sizing: border-box;
+		}
+	</style>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+	
+	<div class="line" style="top: 86px;"></div>
+	<div class="line" style="top: 116px;"></div>
+	<div class="line" style="top: 146px;"></div>
+	<div class="line" style="top: 176px;"></div>
+	<div class="line" style="top: 206px;"></div>
+
+	<div class="info">
+	  <canvas id="myChart"></canvas>
+	</div>
+
+</body>
+</html>
